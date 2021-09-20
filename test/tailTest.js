@@ -1,6 +1,6 @@
 
 const assertEqual = require('../assertEqual');
-const tail = require('../tail.js');
+const tail = require('../tail');
 
 
 
