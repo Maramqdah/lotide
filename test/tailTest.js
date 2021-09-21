@@ -6,11 +6,13 @@ const assert = require('chai').assert;
 
 
 // testing the code
-//const array=["hi","bye"];
-//console.log(tail(array));
+// const array=["lighthouse","lab"];
+//  console.log(tail(array));
 
 describe ("#tail", () => {
-  it("return bye for [hi, bye]", () =>{
-    assert.deepEqual(tail(["hi","bye"]),'bye' )
+  it("return lab for [lighthouse,lab ]", () =>{
+    assert.deepEqual(tail(["lighthouse","lab"]),"lab")
   })
 })
+
+
