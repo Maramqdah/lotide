@@ -11,9 +11,11 @@ const assertEqual = function(actual, expected) {
 const tail = function(arr) {
   let newArr = arr.slice(1);
   assertEqual(arr.length,newArr.length);
-  return newArr;
+  return arr[arr.length-1]
 
 };
 
-const array=["hi","bye"];
-console.log(tail(array));
+const array=["lighthouse","lab"];
+ console.log(tail(array));
+
+module.exports = tail;

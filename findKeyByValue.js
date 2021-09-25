@@ -20,5 +20,5 @@ const findKeyByValue=function(someObj,someVal){
 findKeyByValue(bestTVShowsByGenre,"The Expanse");
 
 
-//assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-//assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+ssertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
